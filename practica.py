@@ -1,6 +1,4 @@
-def spam():
-    print(eggs)
+supplies  = ['pens','staplers','flame-throwers','binders']
+for i in range(len(supplies)):
+    print('Index '+ str(i) + ' in supplies is: ' + supplies[i])
 
-eggs=123456
-spam()
-print(eggs)
